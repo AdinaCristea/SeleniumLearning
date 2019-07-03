@@ -1,0 +1,24 @@
+What is a POM?
+A Project Object Model or POM is the fundamental unit of work in Maven. It is an XML file that contains information about the project and configuration details used by Maven to build the project. It contains default values for most projects. Examples for this is the build directory, which is target; the source directory, which is src/main/java; the test source directory, which is src/test/java; and so on. When executing a task or goal, Maven looks for the POM in the current directory. It reads the POM, gets the needed configuration information, then executes the goal.
+
+Some of the configuration that can be specified in the POM are the project dependencies, the plugins or goals that can be executed, the build profiles, and so on. Other information such as the project version, description, developers, mailing lists and such can also be specified.
+
+https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
+
+Test Case Writing process in TestNG
+Writing a test in TestNG is quite simple and basically involves following steps:
+
+Step 1 – Write the business logic of the test
+Step 2 – Insert TestNG annotations in the code
+Step 3 – Add the information about your test (e.g. the class names, methods names, groups names etc…) in a testng.xml file
+Step 4 – Run TestNG
+
+
+https://www.softwaretestingo.com/deloitte-automation-interview-question/
+https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
+https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/
+https://www.geeksforgeeks.org/wrapper-classes-java/
+https://www.geeksforgeeks.org/difference-between-arrays-and-collection-in-java/
+https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
+https://www.softwaretestinghelp.com/handle-alerts-popups-selenium-webdriver-selenium-tutorial-16/
+https://www.google.com/search?q=How+to+capture+screenshot+in+selenium%3F+Tell+me+the+code.&oq=How+to+capture+screenshot+in+selenium%3F+Tell+me+the+code.&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8

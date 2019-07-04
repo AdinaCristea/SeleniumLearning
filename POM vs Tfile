@@ -45,3 +45,6 @@ In other words, we can wrap a primitive value into a wrapper class object.
 d.REST API has no has no official standard at all because it is an architectural style. SOAP API, on the other hand, has an official standard because it is a protocol. 
 REST APIs uses multiple standards like HTTP, JSON, URL, and XML while SOAP APIs is largely based on HTTP and XML
 
+e. 6) Explain what is assertion in Selenium and what are the types of assertion?
+
+Assertion is used as a  verification point. It verifies that the state of the application conforms to what is expected.  The types of assertion are “assert” , “verify” and “waitFor”.

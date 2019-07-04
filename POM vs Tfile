@@ -1,7 +1,13 @@
 What is a POM?
-A Project Object Model or POM is the fundamental unit of work in Maven. It is an XML file that contains information about the project and configuration details used by Maven to build the project. It contains default values for most projects. Examples for this is the build directory, which is target; the source directory, which is src/main/java; the test source directory, which is src/test/java; and so on. When executing a task or goal, Maven looks for the POM in the current directory. It reads the POM, gets the needed configuration information, then executes the goal.
+A Project Object Model or POM is the fundamental unit of work in Maven.
+It is an XML file that contains information about the project and configuration details used by Maven to build the project. 
+It contains default values for most projects. Examples for this is the build directory, which is target; the source directory, 
+which is src/main/java; the test source directory, which is src/test/java; and so on. When executing a task or goal,
+Maven looks for the POM in the current directory. It reads the POM, gets the needed configuration information, then executes the goal.
 
-Some of the configuration that can be specified in the POM are the project dependencies, the plugins or goals that can be executed, the build profiles, and so on. Other information such as the project version, description, developers, mailing lists and such can also be specified.
+Some of the configuration that can be specified in the POM are the project dependencies,
+the plugins or goals that can be executed, the build profiles, and so on.
+Other information such as the project version, description, developers, mailing lists and such can also be specified.
 
 https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
 
@@ -22,3 +28,20 @@ https://www.geeksforgeeks.org/difference-between-arrays-and-collection-in-java/
 https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
 https://www.softwaretestinghelp.com/handle-alerts-popups-selenium-webdriver-selenium-tutorial-16/
 https://www.google.com/search?q=How+to+capture+screenshot+in+selenium%3F+Tell+me+the+code.&oq=How+to+capture+screenshot+in+selenium%3F+Tell+me+the+code.&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8
+
+
+Interview prep:
+https://www.guru99.com/defect-life-cycle.html  ->bug lifecyrcle;
+
+
+a. Defect triage ==== process where each bug is prioritized based on its severity, frequency, risk, etc. 
+Triage term is used in the Software testing / QA to define the severity and priority of new defects.
+
+b. https://www.pawangaria.com/post/testng/what-is-testng-xml-file/
+c. Wrapper Classes in Java
+A Wrapper class is a class whose object wraps or contains a primitive data types. When we create an object to a wrapper class, it contains a field and in this field, we can store a primitive data types. 
+In other words, we can wrap a primitive value into a wrapper class object.
+
+d.REST API has no has no official standard at all because it is an architectural style. SOAP API, on the other hand, has an official standard because it is a protocol. 
+REST APIs uses multiple standards like HTTP, JSON, URL, and XML while SOAP APIs is largely based on HTTP and XML
+
